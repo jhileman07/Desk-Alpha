@@ -33,7 +33,7 @@ class Var_sampler:
 
 def main():
     vs = Var_sampler(10, 0.5, 0.1, lambda: np.random.normal(100, 10), 10)
-    vs.run(5)
+    vs.run(10)
     plt.plot(vs.sampled)
     plt.show()
     print("done")
